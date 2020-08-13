@@ -1,0 +1,207 @@
+/* Header Section */
+#title {
+  background-color: #ff3355;
+}
+
+.main-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  margin: 70px auto;
+}
+
+.container-fluid {
+  padding: 2% 10% 11%;
+}
+
+nav {
+  font-size: 140%;
+  padding: inherit 0;
+}
+
+.navbar-brand {
+  font-size: 160%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.heading-section {
+  padding: inherit 0;
+}
+
+.right_margin {
+  margin-right: 45px;
+}
+
+.iphone-img {
+  width: 60%;
+  margin-top: 70px;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 29%;
+}
+
+.btn-margin {
+  margin-right: 10px;
+}
+
+/* Features section */
+#features {
+  padding: 10% 7%;
+  text-align: center;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-favicon {
+  margin-bottom: 10px;
+  color: #ff8095;
+  /* margin: 0 auto; */
+}
+
+.feature-favicon:hover {
+  color: #ff3355;
+}
+
+#features [class=col-md-4] {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+#features h3 {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ff4d6a;
+  text-align: center;
+  color: #ffffff;
+  /* padding-bottom: 2%; */
+}
+
+#testimonials h2 {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#testimonials img {
+  width: 17%;
+  border-radius: 50%;
+  margin: 4%;
+}
+
+.carousel-item {
+  padding: 7% 20%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ff4d6a;
+  text-align: center;
+  padding: 1% 4% 2%;
+}
+
+#press img {
+  width: 75%;
+}
+
+#press [class*="lg"] {
+  margin-top: 3%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 90px;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#pricing h3 {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+}
+
+#pricing [class*="col"] {
+  padding: 3% 2%;
+  /* margin: 1% 2% 1%; */
+}
+
+#pricing button {
+  color: #ffffff;
+  background-color: #ff4d6a;
+}
+
+#pricing button:hover {
+  color: #ffffff;
+  background-color: #ff3355;
+}
+
+.chihuahua-btn {
+  color: #ff3355;
+  background-color: #ffffff;
+}
+
+/* CTA Section */
+#cta {
+  text-align: center;
+  background-color: #ff4d6a;
+  padding: 2% 20% 4%;
+}
+
+#cta h3 {
+  font-family: 'Montserrat';
+  font-size: 290%;
+  line-height: 1.5;
+  color: #ffffff;
+  padding-bottom: 4%;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer i {
+  margin: 4% 1% 1%;
+  color: #ff8095;
+}
+
+#footer i:hover {
+  color: #ff3355;
+}
+
+@media screen and (max-width: 1035px) {
+  #title {
+    text-align: center;
+  }
+
+  .right_margin {
+    margin: 0;
+  }
+
+  .iphone-img {
+    transform: rotate(0deg);
+    position: static;
+    width: 80%;
+  }
+
+  .main-h1 {
+    text-align: center;
+  }
+
+  #cta {
+    padding: 2% 10% 4%;
+  }
+}
